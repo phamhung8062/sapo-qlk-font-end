@@ -1,0 +1,67 @@
+{
+  "task": [
+    {
+      "name": "play football",
+      "description": " with my friend",
+      "status": 2,
+      "id": 2
+    },
+    {
+      "name": "Phạm Van Hùng",
+      "description": "Thủy Chó",
+      "status": 1,
+      "id": 10
+    },
+    {
+      "name": "Pham  Văn hùng",
+      "code": "Code",
+      "price": "323232323232",
+      "category": "dsdsdsda",
+      "image": "sdsdsda",
+      "ram": "3",
+      "battery": "3000 mAh",
+      "camera": "150 MP",
+      "gpu": "GPU",
+      "display": "16 inch",
+      "id": 12
+    },
+    {
+      "name": "Pham  Văn hùng",
+      "code": "Code",
+      "price": "323232323232",
+      "category": "dsdsdsda",
+      "image": "sdsdsda",
+      "ram": "1",
+      "battery": "3000 mAh",
+      "camera": "150 MP",
+      "gpu": "GPU",
+      "display": "16 inch",
+      "id": 13
+    },
+    {
+      "name": "Pham  Văn hùng",
+      "code": "Code",
+      "price": "323232323232",
+      "category": "s",
+      "image": "sdsdsda",
+      "ram": "2",
+      "battery": "31111 ",
+      "camera": "150 MP",
+      "gpu": "GPU",
+      "display": "16 inch",
+      "id": 14
+    },
+    {
+      "name": "ssshhdsds",
+      "description": "Phạm Van Hùng",
+      "status": 0,
+      "id": 20
+    },
+    {
+      "name": "Phạm Van Hùng",
+      "description": "Phạm Van Hùng",
+      "status": 0,
+      "id": 21
+    }
+  ]
+}

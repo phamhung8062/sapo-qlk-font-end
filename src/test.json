@@ -1,0 +1,18 @@
+{
+  "info":
+  "varianReceipt": [
+      {
+          "varianId": 3
+          "quantity": "44",
+          "price": "552"
+      },
+      {
+        "varianId": 2
+        "quantity": "44",
+        "price": "552"
+    },
+  ]
+  "supplier":{
+
+  }
+}

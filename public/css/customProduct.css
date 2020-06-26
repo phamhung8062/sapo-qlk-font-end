@@ -1,0 +1,209 @@
+
+.product-detail-header{
+    background: #b6d9f78a;
+    box-shadow: 0px 0px 1px 1px #82c4cf;
+    padding: 15px 15px 50px 15px;
+    margin-bottom: 15px;
+
+
+}
+
+
+.my-layout-fad{
+    background: white;
+    border-radius:5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 0px 1px #c0bbbb;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.fileupload {
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fileupload input {
+
+    position: absolute;
+    top: 0;
+    right: 0; /* not left, because only the right part of the input seems to
+                 be clickable in some browser I can't remember */
+    cursor: pointer;
+    opacity: 0.0;
+    filter: alpha(opacity=0); /* and all the other old opacity stuff you
+                                 want to support */
+    font-size: 300px; /* wtf, but apparently the most reliable way to make
+                         a large part of the input clickable in most browsers */
+    height: 200px;
+}
+
+
+div.show-image {
+    position: relative;
+    margin:5px;
+    display: inline;
+    overflow: hidden;
+    width: 85px;
+    height: 85px;
+
+}
+.item-image{
+    max-width: 80px;
+    max-height: 80px;
+}
+.item-image:hover{
+    opacity: 1.5;
+}
+.show-image:hover .delete {
+    display: block;
+}
+.show-image:hover .visibility {
+    display: block;
+}
+
+.show-image .delete {
+    position:absolute;
+    display:none;
+}
+
+.show-image .visibility {
+    position:absolute;
+    display:none;
+}
+
+div.show-image button.delete {
+    top:-8px;
+    left:41%;
+}
+
+div.show-image button.visibility {
+    top:-8px;
+    left:9%;
+}
+
+.delete{
+    display: none;
+
+}
+
+ .item-image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 0px 5px;
+  }
+
+
+  #variantDetailItem{
+      cursor: pointer;
+        color: black;
+  }
+
+  .my-variant{
+    width: 100%;
+    margin: 0px 0px 15px 30px;
+    padding-left: 5px;
+}
+.my-variant:hover{
+    background-color: aqua;
+    margin: 0px 0px 15px 0px;
+}
+
+.modal-image{
+    display: block;
+    max-width: 90px;
+    max-height: 90px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: inline-block;
+}
+.modal-variant-images.select-image{
+    border: 1.5px solid rgb(10, 177, 19);
+}
+
+.modal-variant-images{
+
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 100px;
+    position: relative;
+    border: 1px solid #ddd;
+    width: 120%;
+    display: inline-block;
+
+}
+
+.image-product{
+    border: 1px solid rgb(14, 236, 25);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.changeImage {
+    margin-top: 8px;
+    margin-left: 55px;
+    color: blue;
+
+}
+.changeImage:hover{
+    cursor: pointer;
+}
+
+.imageInList{
+    overflow: hidden;
+    padding: 2px;
+    width: 55px;
+    height: 55px;
+}
+.btn-filter{
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.addDecription:hover{
+    cursor: pointer;
+}
+
+#addCategory:hover{
+    cursor: pointer;
+}
+
+.item-category{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+    width: 349px;
+
+}
+.item-category:hover{
+    background: rgb(47, 135, 236);
+    width: 346px;
+    height: 33px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-left: -6px;
+}
+
+.priceEdit{
+    color: blue;
+
+}
+.priceEdit:hover{
+    cursor: pointer;
+}
