@@ -21,6 +21,7 @@ class Dashboard extends Component {
 
   render() {
     const { children, classes, name, showSidebar } = this.props;
+    console.log("props",children);
     return (
       <div className={classes.dashboard}>
         <Header

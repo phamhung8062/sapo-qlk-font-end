@@ -7,6 +7,7 @@ import styles from './styles';
 class DefaultLayoutRoute extends Component {
   render() {
     const { component: YourComponent, ...remianProps } = this.props;
+    console.log('props', this.props);
     return (
       <Route
         {...remianProps}

@@ -83,7 +83,9 @@ class Header extends Component {
               <MenuIcon />
             </IconButton>
             <Typography>
+              <img src="/logo_sapo.svg" alt="sapo" style={{ height: '50px' }} />
             </Typography>
+
             {/* <Typography className={classes.title} variant="h6" noWrap>
               hahah
             </Typography> */}
